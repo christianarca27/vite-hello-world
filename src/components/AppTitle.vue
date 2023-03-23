@@ -9,7 +9,13 @@ export default {
 </script>
 
 <template>
-    <h1>{{ title }}</h1>
+    <div id="title-wrapper">
+        <h1>{{ title }}</h1>
+    </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+#title-wrapper {
+    text-align: center;
+}
+</style>
