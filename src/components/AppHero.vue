@@ -2,7 +2,7 @@
 export default {
     data() {
         return {
-            title: "Vue Hello World",
+            heroTitle: "HERO",
         }
     },
 }
@@ -10,7 +10,7 @@ export default {
 
 <template>
     <div id="hero">
-        <h2>HERO</h2>
+        <h2>{{ heroTitle }}</h2>
     </div>
 </template>
 
